@@ -1,5 +1,5 @@
 package com.example.lab04
-//Hola Soy Rodrigo
+//Hola modificacion dle compañero
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
