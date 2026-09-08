@@ -1,12 +1,19 @@
-import androidx.compose.material3.FloatingActionButton
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-
-@Composable
-fun MiBotonFlotanteComponente() {
-    FloatingActionButton(
-        onClick = { /* Acción al hacer clic */ }
+fun ViewHolaCurso() {
+    Column(
+        modifier = Modifier
+            .fillMaxWith()
+            .padding(16.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text(text = "+")
+        Text(
+            text = "Welcome to the Course!",
+            fontSize = 28.sp,
+            fontWeight = FontWeigh.Bold
+        )
+        Spacer(modifier = Modifier.heigh(16.dp))
+        Text(
+            text = "Hello, Student!",
+            fontSize = 20.xD
+        )
     }
 }
